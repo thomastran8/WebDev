@@ -4,18 +4,23 @@
     <head>
         <title>Webage with style</title>
         <style type="text/css">
-            p {
+            .red {
                 color:red;
+            }
+            .large {
                 font-size:200%;
             }
-            h1 {
-                color:pink;
+            #green {
+                color:green;
+            }
+            .underlined {
+                text-decoration:underline;
             }
         </style>
     </head>
     <body>
-        <p>Hello this is a regular sentence</p>
-        <p>Another sentence</p>
-        <h1>CSS is cool</h1>
+        <p class="red large">Hello this is a regular sentence</p>
+        <p id="green">Another sentence here. <span class="underlined">This text is underlined</span></p>
+        <h1 class="red">CSS is cool</h1>
     </body>
 </html>
