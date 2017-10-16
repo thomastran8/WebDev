@@ -17,12 +17,18 @@
                 text-decoration:underline;
             }
             #first_section {
-                color:blue;
-                background-color:pink;
-                width:100px;
+                color: blue;
+                background-color: #A3E4D7;
+                width: 200px;
+                float:left;
             }
             #second_section {
                 background-color:yellow;
+                width:200px;
+                float:right;
+            }
+            .clear_float {
+                clear:both;
             }
         </style>
     </head>
@@ -35,5 +41,7 @@
             <p>More sentences for fun!</p>
             <h1 class="red">CSS is cool</h1>
         </div>
+        <div class="clear_float"></div>
+        <p>This paragraph is not floated</p>
     </body>
 </html>
