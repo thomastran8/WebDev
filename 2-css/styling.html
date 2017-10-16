@@ -5,49 +5,33 @@
         <title>Webage with style</title>
         <style type="text/css">
             .red {
-                color:red;
+                background-color:red;
+                border:10px yellow groove;
             }
-            .large {
-                font-size:200%;
+            .blue {
+                background-color:blue;
+                border-style:ridge solid dotted dashed;
+                border-color:red green orange purple;
+                border-width:10px;
             }
-            #green {
-                color:green;
+            .green {
+                background-color: green;
+                border-radius:50%;
             }
-            .underlined {
-                text-decoration:underline;
-            }
-            #first_section {
-                color: blue;
-                background-color: #A3E4D7;
-                width: 200px;
-                /*margin:100px 20px 10px 5px;*/
-                margin-left:200px;
-            }
-            #second_section {
-                background-color:yellow;
-                width:200px;
-                /*margin:50px 20px;*/
-                padding:20px 30px;
-            }
-            body {
-                margin:0;
-                padding:0;
-            }
-            p {
-                margin:0;
-                padding:0;
+            .square {
+                width:100px;
+                height:100px;
+                margin:10px;
+                float:left;
             }
         </style>
     </head>
     <body>
-        <div id="first_section">
-            <p>Hello this is a regular sentence</p>
-            <p>Another sentence here. <span class="underlined">This text is underlined</span></p>
+        <div class="red square">
         </div>
-        <div id="second_section">
-            <p>More sentences for fun!</p>
-            <h1 class="red">CSS is cool</h1>
+        <div class="blue square">
         </div>
-        <p>This paragraph is not floated</p>
+        <div class="green square">
+        </div>
     </body>
 </html>
