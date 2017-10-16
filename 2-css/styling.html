@@ -16,11 +16,24 @@
             .underlined {
                 text-decoration:underline;
             }
+            #first_section {
+                color:blue;
+                background-color:pink;
+                width:100px;
+            }
+            #second_section {
+                background-color:yellow;
+            }
         </style>
     </head>
     <body>
-        <p class="red large">Hello this is a regular sentence</p>
-        <p id="green">Another sentence here. <span class="underlined">This text is underlined</span></p>
-        <h1 class="red">CSS is cool</h1>
+        <div id="first_section">
+            <p>Hello this is a regular sentence</p>
+            <p>Another sentence here. <span class="underlined">This text is underlined</span></p>
+        </div>
+        <div id="second_section">
+            <p>More sentences for fun!</p>
+            <h1 class="red">CSS is cool</h1>
+        </div>
     </body>
 </html>
